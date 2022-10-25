@@ -5,7 +5,7 @@
     Paleta de cores:
     Rosa: #daafb8
     Rosa: #BF94A5
-    Azul: ##7997bd
+    Azul: #7997bd
     Azul: #4E6C88
 
 */
@@ -41,6 +41,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+
+    transition: width 0.3s, height 0.3s; /*animação */
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
